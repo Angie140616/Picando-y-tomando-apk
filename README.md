@@ -31,7 +31,7 @@ El sistema busca digitalizar el control de mesas y pedidos del negocio.
 - ✔ 7 mesas creadas por defecto
 - ✔ Agregar nuevas mesas dinámicamente
 - ✔ Botón "+" para crear mesas adicionales
-- ✔ Campo para nombre del cliente por mesa
+- ✔ Campo para nombre del producto para la mesa
 - ✔ Área para pedidos por mesa
 - ✔ Interfaz tipo sistema POS
 
