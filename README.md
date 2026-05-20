@@ -18,13 +18,7 @@ El sistema busca digitalizar el control de mesas y pedidos del negocio.
   - Node.js
   - Mysql
   - Git / GitHub
-
-**En desarrollo futuro:**
-- Node.js + Express
-- MySQL
-- Electron (app de escritorio)
-
-
+  - Electron (app de escritorio)
 
 ## Funcionalidades actuales
 
