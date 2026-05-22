@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crear Producto</title>
+
     <link rel="stylesheet" href="../estilos/css/producto.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+
     <form action="" method="post" class="contenedorProducto">
         <h2>Crear producto</h2>
 
@@ -16,16 +22,39 @@
         </div>
 
         <div class="campo">
-            <span>Categoria</span>
-            <input type="text" placeholder="Categoria">
+            <span>Categoría</span>
+            <input type="text" placeholder="Categoría">
         </div>
 
         <div class="campo">
             <span>Precio</span>
             <input type="number" placeholder="Precio">
         </div>
-        <button type="button" class="btnEnviar">Enviar</button>
+
+        <div class="campo">
+            <span>Imagen</span>
+
+            <label for="imagen" class="btnImagen">
+                <i class="fa-regular fa-image"></i>
+            </label>
+
+            <input
+                type="file"
+                id="imagen"
+                accept="image/*"
+                hidden
+            >
+        </div>
+
+        <div class="preview">
+            <img id="vistaPrevia" style="display:none;">
+        </div>
+
+        <button type="button" class="btnEnviar">
+            Enviar
+        </button>
     </form>
-   
+
+    <script src="../js/producto.js"></script>
 </body>
 </html>

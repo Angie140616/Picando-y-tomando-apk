@@ -1,0 +1,62 @@
+#contenedorMesas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+#contenedorMesas .containerMesas {
+  width: 20rem;
+  height: 350px;
+  border: 10px solid #3F3D3D;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+#contenedorMesas .containerMesas p {
+  text-align: center;
+  margin: 5px 0;
+}
+#contenedorMesas .containerMesas .campo {
+  width: 80%;
+  height: 30px;
+  background-color: #3F3D3D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contenedorMesas .containerMesas .campo p {
+  color: white;
+  font-size: 16px;
+}
+#contenedorMesas .containerMesas .campo input {
+  height: 24px;
+  border: 2px solid #3F3D3D;
+  outline: none;
+}
+#contenedorMesas .containerMesas .containerPedidos {
+  width: 90%;
+  height: 220px;
+  border: 1px solid #3F3D3D;
+  background-color: rgb(219, 217, 217);
+}
+#contenedorMesas #btnAgregarMesa {
+  width: 20rem;
+  height: 350px;
+  border: 10px dashed #3F3D3D;
+  border-radius: 20px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #3F3D3D;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenedorMesas #btnAgregarMesa:hover {
+  background-color: rgb(219, 217, 217);
+}/*# sourceMappingURL=mesas.css.map */

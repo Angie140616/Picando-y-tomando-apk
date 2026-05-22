@@ -1,6 +1,6 @@
 .contenedorProducto {
   width: 35%;
-  height: 450px;
+  min-height: 450px;
   margin: 2rem auto;
   border: 3px solid #3F3D3D;
   display: flex;
@@ -42,8 +42,27 @@
       padding-left: 10px;
       text-align: center;
     }
+
+    .btnImagen {
+      flex: 1;
+      height: 100%;
+      background-color: white;
+      color: #3F3D3D;
+      cursor: pointer;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 1.5rem;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
   }
-  .btnEnviar{
+
+  .btnEnviar {
     width: 60%;
     height: 40px;
     color: white;
@@ -52,5 +71,24 @@
     border: 2px solid black;
     border-radius: 10px;
     cursor: pointer;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+}
+
+.preview {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: .5rem 0;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3F3D3D;
+    border-radius: 10px;
+    object-fit: cover;
   }
 }

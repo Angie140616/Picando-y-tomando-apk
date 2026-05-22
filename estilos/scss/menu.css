@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  background-color: #3F3D3D;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.menu h1 {
+  text-align: center;
+}
+.menu ul {
+  display: flex;
+  gap: 20px; /* espacio entre los items */
+  list-style: none; /* quita los puntos */
+  padding: 0;
+  margin: -1rem 0;
+  justify-content: center;
+}
+.menu ul li {
+  cursor: pointer;
+  margin: 1.5rem 10rem;
+  font-size: 1.37rem;
+}/*# sourceMappingURL=menu.css.map */

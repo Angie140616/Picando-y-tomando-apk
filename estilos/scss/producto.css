@@ -79,7 +79,6 @@
   height: 150px;
   border: 2px solid #3F3D3D;
   border-radius: 10px;
-  object-fit: cover;
-}
-
-/*# sourceMappingURL=producto.css.map */
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=producto.css.map */
